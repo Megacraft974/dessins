@@ -14,7 +14,7 @@ def modifier():
 
 def colorier():
     goto(235,224)
-    fill("black")
+    # fill("black")
 
 x1 = 100
 x2 = 100
@@ -24,7 +24,7 @@ fen1 = Tk()
 can1 = Canvas(fen1,bg="white",height=500,width=500)
 can1.pack()
 
-bou = Button(fen1,text="1",command = 
+# bou = Button(fen1,text="1",command = 
 circuit_droit()
 
 modifier()
